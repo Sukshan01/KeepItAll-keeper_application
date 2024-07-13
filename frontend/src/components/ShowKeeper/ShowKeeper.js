@@ -6,7 +6,7 @@ const ShowKeeper = ({ keeperList, setKeeperList }) => {
 
 
     const deleteKeeper = (id) => {
-        axios.post("http://localhost:4000/api/delete", { id })
+        axios.post("https://keepitall-keeper-application-backend.onrender.com/api/delete", { id })
         .then(res => setKeeperList(res.data))
 
 

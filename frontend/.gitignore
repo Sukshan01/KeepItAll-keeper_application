@@ -6,7 +6,8 @@
 .pnp.js
 
 
-/frontend/public/keep_logo-removebg.png
+/public/keep_logo-removebg.png
+
 
 # testing
 /coverage

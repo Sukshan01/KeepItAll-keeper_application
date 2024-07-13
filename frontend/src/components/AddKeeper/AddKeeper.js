@@ -20,7 +20,7 @@ const AddKeeper = ({ setKeeperList }) => {
 
     const add = () => {
         if(KeeperObj.title){
-       axios.post("http://localhost:4000/api/addNew", KeeperObj)
+       axios.post("https://keepitall-keeper-application-backend.onrender.com/api/addNew", KeeperObj)
        .then(res => setKeeperList(res.data))
        setKeeperObj({ title: '', description: '' });
     }

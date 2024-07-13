@@ -11,7 +11,7 @@ const App = () => {
   const [keeperList, setKeeperList] = useState([])
 
   useEffect(() => {
-      axios.get("http://localhost:4000/api/getAll")
+      axios.get("https://keepitall-keeper-application-backend.onrender.com/api/getAll")
       .then(res => setKeeperList(res.data))
   }, [])
 
