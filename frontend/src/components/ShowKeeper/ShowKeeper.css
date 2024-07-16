@@ -44,3 +44,75 @@
     font-size: 1rem;
     cursor: pointer;
 }
+
+
+
+@media screen and (max-width: 800px){
+    .keeperCard{
+        background: #000;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, .5);
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    min-height: 240px;
+    padding: 2rem;
+    position: relative;
+    width: 280px;
+
+    }
+}
+
+
+@media screen and (max-width: 600px){
+
+    .keeperCard{
+
+        background: #000;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, .5);
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    min-height: 230px;
+    padding: 2rem;
+    position: relative;
+    width: 270px;
+
+    }
+}
+
+
+@media screen and (max-width: 500px){
+
+    .keeperCard{
+        background: #000;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, .5);
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    min-height: 210px;
+    padding: 2rem;
+    position: relative;
+    width: 260px;
+
+    }
+}
+
+
+@media screen and (max-width: 400px){
+    .keeperCard{
+        background: #000;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, .5);
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    min-height: 200px;
+    padding: 2rem;
+    position: relative;
+    width: 250px;
+
+    }
+}

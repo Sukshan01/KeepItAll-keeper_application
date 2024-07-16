@@ -2,3 +2,12 @@
     min-height: 800px;
     background: linear-gradient( to bottom right, rgb(82, 171, 240) , rgb(114, 248, 185) );
   }
+
+
+  @media screen and (max-width: 400px){
+   .App{
+    background: linear-gradient(to bottom right, #52abf0, #72f8b9);
+    min-height: 811px;
+    width: fit-content;
+   }
+  }
